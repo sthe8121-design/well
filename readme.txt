@@ -1,0 +1,1 @@
+Simpan gambar/audio pendukung di dalam folder ini jika ada.

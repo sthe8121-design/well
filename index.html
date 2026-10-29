@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petualangan Kebaikan: Memahami Norma & Taat Aturan di Masyarakat</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Top Logos Bar -->
+        <header class="top-header">
+            <div class="kemdikbud-text">
+                Direktorat Sekolah Menengah Pertama, Direktorat Jenderal Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Pendidikan Menengah, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi
+            </div>
+            <div class="brand-logos">
+                <span class="logo-wellio">🧠 wellio</span>
+                <span class="logo-sobat">SOBAT SMP</span>
+                <span class="logo-ramah">SEKOLAH RAMAH</span>
+            </div>
+        </header>
+
+        <!-- Slide Content Area -->
+        <main class="slide-viewport">
+            <!-- Slide 1 -->
+            <section class="slide active" id="slide-1">
+                <div class="card-container center-card">
+                    <h1>Petualangan Kebaikan:<br>Memahami Norma & Taat Aturan di Masyarakat</h1>
+                    <div class="pancasila-badge">
+                        🎯 Dimensi Pancasila: Beriman, Bertakwa kepada Tuhan YME, dan Berakhlak Mulia.
+                    </div>
+                    <button class="btn-start" onclick="nextSlide()">🚀 MULAI</button>
+                </div>
+            </section>
+
+            <!-- Slide 2 -->
+            <section class="slide" id="slide-2">
+                <div class="card-container wide-card">
+                    <h2>SLIDE 2: TUJUAN PEMBELAJARAN & KESEPAKATAN KELAS</h2>
+                    <div class="two-column-grid">
+                        <div class="col">
+                            <span class="pill-badge">TUJUAN PEMBELAJARAN</span>
+                            <ul>
+                                <li>Peserta didik memahami nilai-nilai norma masyarakat.</li>
+                                <li>Peserta didik berperilaku taat aturan.</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <span class="pill-badge">KESEPAKATAN BELAJAR</span>
+                            <ul>
+                                <li>Peserta didik aktif dalam pembelajaran social-emotional.</li>
+                                <li>Peserta didik saling menghargai dan mendukung satu sama lain.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pancasila-badge center">
+                        🎯 DIMENSI PANCASILA: MANDIRI & BERNALAR KRITIS.
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3 -->
+            <section class="slide" id="slide-3">
+                <div class="card-container wide-card">
+                    <h2>SLIDE 3: PETA KONSEP – 4 JENIS NORMA (INTERAKTIF)</h2>
+                    <div class="four-card-grid">
+                        <div class="norma-card">
+                            <div class="letter-badge">A</div>
+                            <div class="icon">📖</div>
+                            <h3>Norma Agama</h3>
+                        </div>
+                        <div class="norma-card">
+                            <div class="letter-badge">B</div>
+                            <div class="icon">💖</div>
+                            <h3>Norma Kesusilaan</h3>
+                        </div>
+                        <div class="norma-card">
+                            <div class="letter-badge">C</div>
+                            <div class="icon">🤝</div>
+                            <h3>Norma Kesopanan</h3>
+                        </div>
+                        <div class="norma-card">
+                            <div class="letter-badge">D</div>
+                            <div class="icon">⚖️</div>
+                            <h3>Norma Hukum</h3>
+                        </div>
+                    </div>
+                    <div class="pancasila-badge center">
+                        🎯 DIMENSI PANCASILA: BERKEBINEKAAN GLOBAL.
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4 -->
+            <section class="slide" id="slide-4">
+                <div class="card-container wide-card">
+                    <h2>SLIDE 4: EKSPLORASI DIRI – MENGAPA ATURAN ITU PENTING?</h2>
+                    <div class="two-column-grid">
+                        <div class="col border-card red-theme">
+                            <h3>⚠️ DUNIA TANPA ATURAN</h3>
+                            <ul>
+                                <li>Merasa tidak aman dan cemas.</li>
+                                <li>Terjadi kekacauan dan konflik sosial.</li>
+                            </ul>
+                        </div>
+                        <div class="col border-card green-theme">
+                            <h3>🛡️ DUNIA TAAT ATURAN</h3>
+                            <ul>
+                                <li>Lingkungan menjadi aman, nyaman, dan damai.</li>
+                                <li>Tercipta rasa saling menghargai dan gotong royong.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5 INTERACTIVE -->
+            <section class="slide" id="slide-5">
+                <div class="card-container interactive-dropzone">
+                    <h2>SLIDE 5: DILEMA MORAL & EMPATI (STUDI KASUS SEL) - INTERAKTIF</h2>
+                    <div class="instruction-badge">Klik/Pilih jawabanmu di bawah ini!</div>
+                    
+                    <div class="quiz-box">
+                        <div class="case-header">📌 STUDI KASUS</div>
+                        <p class="question">Temanmu lupa membawa helm saat naik sepeda motor bersama saudaranya. Apa yang akan kamu lakukan?</p>
+                        <div class="options-container" id="quiz-options-5">
+                            <button class="option-btn" onclick="selectOption(this, 5)">PILIHAN A: Abaikan saja karena itu bukan urusanku.</button>
+                            <button class="option-btn" onclick="selectOption(this, 5)">PILIHAN B: Mengingatkan dengan sopan pentingnya memakai helm.</button>
+                            <button class="option-btn" onclick="selectOption(this, 5)">PILIHAN C: Meminjamkan helm cadangan atau mencari solusi aman.</button>
+                        </div>
+                        <div class="feedback" id="feedback-5"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6 INTERACTIVE -->
+            <section class="slide" id="slide-6">
+                <div class="card-container interactive-dropzone">
+                    <h2>SLIDE 6: KUIS INTERAKTIF PART 1 – DETEKTIF NORMA</h2>
+                    <div class="quiz-box">
+                        <p class="question"><strong>Kasus:</strong> Ani menyapa guru dengan ramah saat bertemu di jalan. Termasuk norma manakah ini?</p>
+                        <div class="options-grid" id="quiz-options-6">
+                            <button class="option-btn" onclick="checkAnswer(this, false, 6)">Option A: Norma Agama</button>
+                            <button class="option-btn" onclick="checkAnswer(this, true, 6)">Option B: Norma Kesopanan</button>
+                            <button class="option-btn" onclick="checkAnswer(this, false, 6)">Option C: Norma Kesusilaan</button>
+                            <button class="option-btn" onclick="checkAnswer(this, false, 6)">Option D: Norma Hukum</button>
+                        </div>
+                        <div class="feedback" id="feedback-6"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7 INTERACTIVE -->
+            <section class="slide" id="slide-7">
+                <div class="card-container interactive-dropzone">
+                    <h2>SLIDE 7: KUIS INTERAKTIF PART 2 – PILIH PERILAKU TAAT</h2>
+                    <div class="matching-grid">
+                        <div class="group-col">
+                            <div class="group-header">Grup Perilaku</div>
+                            <div class="match-item">Memakai Helm saat Berkendara</div>
+                            <div class="match-item">Mengembalikan Barang Temuan</div>
+                            <div class="match-item">Antre dengan Tertib</div>
+                        </div>
+                        <div class="group-col">
+                            <div class="group-header">Grup Dampak</div>
+                            <div class="match-item">Menciptakan Keadilan & Ketertiban</div>
+                            <div class="match-item">Menjaga Keselamatan Diri</div>
+                            <div class="match-item">Menjaga Kejujuran & Hati Nurani</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 8 INTERACTIVE -->
+            <section class="slide" id="slide-8">
+                <div class="card-container wide-card">
+                    <h2>SLIDE 8: REFLEKSI EMOSIONAL – SEL CHECK-IN JOURNAL</h2>
+                    <p class="subtitle">Komitmen Diri: Norma mana yang paling ingin kamu tingkatkan minggu ini?</p>
+                    <div class="three-reflection-grid">
+                        <div class="reflection-card" onclick="selectReflection(this)">
+                            <div class="icon">🛡️</div>
+                            <h3>RASA AMAN</h3>
+                        </div>
+                        <div class="reflection-card" onclick="selectReflection(this)">
+                            <div class="icon">😊</div>
+                            <h3>RASA PEDULI</h3>
+                        </div>
+                        <div class="reflection-card" onclick="selectReflection(this)">
+                            <div class="icon">🎯</div>
+                            <h3>RASA DISIPLIN</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 9 -->
+            <section class="slide" id="slide-9">
+                <div class="card-container wide-card">
+                    <h2>SLIDE 9: RANGKUMAN & AKSI NYATA</h2>
+                    <div class="summary-box">
+                        <h3>🔑 3 KUNCI UTAMA:</h3>
+                        <ol>
+                            <li>Norma adalah panduan agar hidup kita tertib dan damai.</li>
+                            <li>Saling menghargai dan empati adalah fondasi utama bermasyarakat.</li>
+                            <li>Mulailah taat aturan dari hal terkecil di lingkungan sekolah dan rumah!</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 10 -->
+            <section class="slide" id="slide-10">
+                <div class="card-container center-card">
+                    <div class="trophy-header">🏆 LUAR BIASA! KAMU HEBAT!</div>
+                    <h1>Terima Kasih Sudah Menjadi<br>Agen Kebaikan & Taat Aturan!</h1>
+                    <p>Mari terus amalkan norma dan aturan di mana pun berada demi mewujudkan lingkungan yang aman, nyaman, dan damai bersama.</p>
+                    <button class="btn-finish">SELESAI</button>
+                </div>
+            </section>
+
+            <!-- Mascot Mio (Global Overlay Positioned Bottom Right) -->
+            <div class="mascot-mio">
+                <div class="mio-robot">
+                    <div class="mio-visor">🤖</div>
+                    <div class="mio-body"> Wellio </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Presentation Footer Navigation Controls -->
+        <footer class="bottom-footer">
+            <button class="nav-btn" onclick="prevSlide()">◀</button>
+            <span class="slide-indicator" id="slide-num">1 / 10</span>
+            <button class="nav-btn" onclick="nextSlide()">▶</button>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
